@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-10T20:19:12 IST" name="Suite" finished-at="2024-09-10T20:19:49 IST" duration-ms="37380">
+    <groups>
+    </groups>
+    <test started-at="2024-09-10T20:19:12 IST" name="Test" finished-at="2024-09-10T20:19:49 IST" duration-ms="37380">
+      <class name="maventestngpackage.Checking">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:maventestngpackage.Checking@69e153c5]" started-at="2024-09-10T20:19:12 IST" name="setUp" finished-at="2024-09-10T20:19:45 IST" duration-ms="32774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testOpenBrowser()[pri:1, instance:maventestngpackage.Checking@69e153c5]" started-at="2024-09-10T20:19:45 IST" name="testOpenBrowser" finished-at="2024-09-10T20:19:48 IST" duration-ms="3067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenBrowser -->
+        <test-method signature="searchText()[pri:0, instance:maventestngpackage.Checking@69e153c5]" started-at="2024-09-10T20:19:48 IST" name="searchText" finished-at="2024-09-10T20:19:49 IST" depends-on-methods="maventestngpackage.Checking.testOpenBrowser" duration-ms="670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:maventestngpackage.Checking@69e153c5]" started-at="2024-09-10T20:19:49 IST" name="tearDown" finished-at="2024-09-10T20:19:49 IST" duration-ms="831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- maventestngpackage.Checking -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
